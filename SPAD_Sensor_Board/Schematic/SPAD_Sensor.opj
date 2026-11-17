@@ -1,0 +1,78 @@
+(ExpressProject "SPAD_Sensor"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 S050 (4459063)  [7/18/2026]-[11/17/26]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library2.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\spad_sensor.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (MPSSessionName "SNIPER")
+  (PartMRUSelector
+    (74LVC1G123
+      (FullPartName "74LVC1G123.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (ADA4817-1
+      (FullPartName "ADA4817-1.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OPA855IDSGR
+      (FullPartName "OPA855IDSGR.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE 34/DD"
+      (FullPartName "DIODE 34/DD.Normal")
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "Z:\openSuseDir\GithubDir\SPAD_AllinOne\SPAD_Sensor_Board\Schematic\spad_sensor.dsn")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library2.olb")
+      (Select "Design Resources" "Library" ".\library2.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 567"))
+      (Tab 0))))
