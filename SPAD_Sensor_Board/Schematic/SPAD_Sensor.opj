@@ -1,6 +1,6 @@
 (ExpressProject "SPAD_Sensor"
   (ProjectVersion "19981106")
-  (SoftwareVersion "25.1 S050 (4459063)  [7/18/2026]-[11/17/26]")
+  (SoftwareVersion "25.1 S050 (4459063)  [7/18/2026]-[11/18/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -29,6 +29,59 @@
   (Folder "Logs")
   (MPSSessionName "SNIPER")
   (PartMRUSelector
+    (GND
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MAX15062CATA+T
+      (FullPartName "MAX15062CATA+T.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (SPX5205M5-L-5-0/TR
+      (FullPartName "SPX5205M5-L-5-0/TR.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (MAX15062BATA+
+      (FullPartName "MAX15062BATA+.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LT8330ES6
+      (FullPartName "LT8330ES6.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (ADCMP600BRJZ-REEL7
+      (FullPartName "ADCMP600BRJZ-REEL7.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LT3464ETS8
+      (FullPartName "LT3464ETS8.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    (2N7002E
+      (FullPartName "2N7002E.Normal")
+      (LibraryName
+         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET N"
+      (FullPartName "MOSFET N.Normal")
+      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (74LVC1G123
       (FullPartName "74LVC1G123.Normal")
       (LibraryName
@@ -38,12 +91,6 @@
       (FullPartName "ADA4817-1.Normal")
       (LibraryName
          "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\LIBRARY2.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "D:\MYAPP\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
@@ -65,14 +112,14 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "Z:\openSuseDir\GithubDir\SPAD_AllinOne\SPAD_Sensor_Board\Schematic\spad_sensor.dsn")
+      (Path "Design Resources" ".\spad_sensor.dsn")
+      (Path "Design Resources" ".\spad_sensor.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library2.olb")
-      (Select "Design Resources" "Library" ".\library2.olb"))
+      (Select "Design Resources" ".\spad_sensor.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 567"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 364 0 635"))
       (Tab 0))))
