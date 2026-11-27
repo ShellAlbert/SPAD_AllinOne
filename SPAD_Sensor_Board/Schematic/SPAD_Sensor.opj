@@ -1,6 +1,6 @@
 (ExpressProject "SPAD_Sensor"
   (ProjectVersion "19981106")
-  (SoftwareVersion "25.1 S050 (4459063)  [7/18/2026]-[11/26/26]")
+  (SoftwareVersion "25.1 S050 (4459063)  [7/18/2026]-[11/27/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -221,23 +221,11 @@
       (Path "Design Resources" ".\spad_sensor.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 200 0 503"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1501 24 521")
-        (Scroll "-87 447")
-        (Zoom "78")
-        (Occurrence "/"))
-      (Path
-         "Z:\OPENSUSEDIR\GITHUBDIR\SPAD_ALLINONE\SPAD_SENSOR_BOARD\SCHEMATIC\SPAD_SENSOR.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false"))
